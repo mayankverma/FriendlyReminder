@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/background" >
+    <TextView 
+    	android:text="Email Address:"
+    	android:id="@+id/login_view_email_address" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    ></TextView>
+    <EditText 
+    	android:id="@+id/login_edit_email_address" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="match_parent" 
+    	android:text=""
+    android:hint="@string/required"></EditText>
+    
+    <TextView 
+    	android:text="Password:" 
+    	android:id="@+id/login_view_password" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    ></TextView>
+    <EditText 
+    	android:id="@+id/login_edit_password" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="match_parent" 
+    	android:text=""
+    android:hint="@string/required"></EditText>
+    <CheckBox 
+    	android:text="Remember me" 
+    	android:id="@+id/login_remember_me" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginLeft="10dp"
+    ></CheckBox>
+    <Button 
+    	android:text="Save" 
+    	android:id="@+id/login_save_bt" 
+    	android:layout_width="150dp" 
+    	android:layout_gravity="center" 
+    	android:layout_height="50dp" 
+    ></Button>
+  
+  </LinearLayout>
+  

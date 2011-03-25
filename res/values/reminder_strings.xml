@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="reminder_alert">Alert</string>
+    <string-array name="reminder_array">
+        <item>5 minutes</item>
+        <item>10 minutes</item>        
+        <item>15 minutes</item>       
+        <item>30 minutes</item>        
+		<item>1 hours</item>
+		<item>2 hours</item>
+		<item>3 hours</item>
+		<item>4 hours</item>
+    </string-array>
+</resources>

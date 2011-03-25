@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    	android:id="@+id/history_menu"
+	    android:title="Sent" 
+	    android:visible="true"
+	    android:orderInCategory="2"
+	    android:icon="@drawable/outbox"
+	></item>
+  <item 
+    	android:id="@+id/settings_menu"
+	    android:title="Settings" 
+	    android:visible="true"
+	    android:orderInCategory="4"
+	    android:icon="@drawable/settings"
+	></item>
+	<item 
+    	android:id="@+id/home_menu"
+	    android:title="Home" 
+	    android:visible="true"
+	    android:orderInCategory="1"
+	    android:icon="@drawable/home"
+	></item>
+	<item 
+    	android:id="@+id/add_item_menu"
+	    android:title="Create Task" 
+	    android:visible="true"
+	    android:orderInCategory="3"
+	    android:icon="@drawable/add"
+	></item>
+</menu>

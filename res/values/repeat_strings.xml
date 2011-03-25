@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="repeat_alert">Repeat</string>
+    <string-array name="repeat_array">
+        <item>Only once</item>
+        <item>Daily</item>        
+        <item>Weekly</item>       
+        <item>Bi-weekly</item>        
+		<item>Monthly</item>
+		<item>Semi-anually</item>
+		<item>Yearly</item>
+    </string-array>
+</resources>

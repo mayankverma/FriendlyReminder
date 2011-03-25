@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.myapp.friendlyreminder"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".FriendReminder"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+      <activity android:name=".create_acc"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.myapp.friendlyreminder.CREATEACCOUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".login"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.myapp.friendlyreminder.LOGIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".HomePage"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.myapp.friendlyreminder.HOMEPAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity android:name=".settings"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.myapp.friendlyreminder.SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+          <activity android:name=".history"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.myapp.friendlyreminder.HISTORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+        <activity android:name=".create_reminder"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.myapp.friendlyreminder.CREATE_REMINDER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".listclass"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.myapp.friendlyreminder.LISTCLASS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+</manifest>
